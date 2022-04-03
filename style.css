@@ -1,0 +1,87 @@
+{
+    margin: 0;
+    background-color: black;
+    font-family: monospace;
+}
+
+
+/* HEADER */
+
+header {
+    border-bottom: 1px solid white;
+    background-color: #5333ed;
+}
+
+.container {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container ul {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    width: 600px;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.container ul a {
+    text-decoration: none;
+    color: white;
+}
+
+header .container {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.agora {
+    border-bottom: 1px solid white;
+    padding: 0 0 2px 0;
+}
+
+
+/* CADASTRO */
+
+.card {
+    background-color: #4f2fec;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border: 3px solid #13dddd;
+    margin-top: 20px;
+    border-radius: 50px 0;
+}
+
+.botao {
+    font-family: monospace;
+    margin-top: 10px;
+    border: 0;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 18px;
+    color: black;
+    border: 2px solid white;
+    padding: 10px 15px;
+    background-color: #5f4eca;
+    cursor: pointer;
+}
+
+.ipt_Cadastro {
+    height: 30px;
+    border: 1px solid #423f34;
+    border-radius: 4px;
+}
+
+.CPF {
+    height: 50px;
+    border-bottom: 1px rgb(25, 25, 148);
+}
+
+;
